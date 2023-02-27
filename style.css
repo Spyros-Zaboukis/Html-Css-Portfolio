@@ -1,7 +1,34 @@
+/* Tout les liens */
+
 a{
     color: black;
+    font-family: Manrope;
+    text-decoration: none;
 }
 
-span{
+/* les mots importants */
+
+em{
     color: #A5B4FC;
+}
+
+/* Les titres */
+
+h1{
+    font-family: Montserrat ;
+    color : #A5B4FC;
+    font-size: 3.5em;
+}
+
+
+/* Les paragraphes */
+
+p{
+    font-family: Manrope;
+    font-size: 1.1em;
+}
+
+li{
+    font-size: 1em;
+    font-family: Manrope;
 }
