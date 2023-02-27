@@ -1,7 +1,7 @@
 /* Tout les liens */
 
 a{
-    color: black;
+    color: #242424;
     font-family: Manrope;
     text-decoration: none;
 }
@@ -19,8 +19,6 @@ h1{
     color : #A5B4FC;
     font-size: 3.5em;
 }
-
-
 /* Les paragraphes */
 
 p{
@@ -31,4 +29,21 @@ p{
 li{
     font-size: 1em;
     font-family: Manrope;
+}
+
+p, li, h2{
+    color: #F9F8FF;
+}
+.menu,
+.footer {
+  background-color: white;
+}
+
+body{
+    background-color: #1F2039;
+}
+
+.pub{
+    background: linear-gradient(90deg, #8E86B5, #ACAEED);
+    font-family: Montserrat;
 }
