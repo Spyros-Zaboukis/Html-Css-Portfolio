@@ -6,6 +6,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 /* les mots importants */
 
 em{
@@ -52,4 +56,12 @@ body{
 .bodyApropos{
     border-bottom: 1px solid #A5B4FC;
     border-right: 1px solid #A5B4FC;
+}
+
+a .cta{
+    background-color: linear-gradient(90deg , #696484, #8788BA);
+}
+
+.icon:hover{
+    opacity: 0.5;
 }
