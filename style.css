@@ -46,4 +46,10 @@ body{
 .pub{
     background: linear-gradient(90deg, #8E86B5, #ACAEED);
     font-family: Montserrat;
+    border-radius: 50px;
+}
+
+.bodyApropos{
+    border-bottom: 1px solid #A5B4FC;
+    border-right: 1px solid #A5B4FC;
 }
