@@ -38,8 +38,8 @@ li{
 p, li, h2{
     color: #F9F8FF;
 }
-.menu,
-.footer {
+header,
+footer {
   background-color: white;
 }
 
