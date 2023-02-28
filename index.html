@@ -16,7 +16,7 @@
                 <img src="./img/logo.png" alt="Logo de Robbie Lens"/> 
             </a>
             <nav>
-                <ul>
+                <ul class="linkMenu">
                     <li>
                         <a href="./index.html">Home</a>
                     </li>
@@ -27,22 +27,33 @@
             </nav>
         </header>
         <main>
-            <section>
-                <!-- Commencement de la page web -->
-                <h1>Photographie</h1>
-                
-                <p>Où <em>professionalisme</em> s'allie avec <em>passion</em>. Depuis plus de 5 ans maintenant, j'exerce mon métier avec la passion
-                qui m'anime : capturer l'essence de chaque instant.</p>
+            <section class="flex-container">
+                <div class="flex-container-left">
+                    <!-- Commencement de la page web -->
+                    <h1>Photographie</h1>
+                    
+                    <p>Où <em>professionalisme</em> s'allie avec <em>passion</em>. Depuis plus de 5 ans maintenant, j'exerce mon métier avec la passion
+                    qui m'anime : capturer l'essence de chaque instant.</p>
 
-                <img src="./img/robbie-lens.png" alt="Photo Robbie Lens"/>
-
-
-                <div class="pub">
-                    <a class="cta" href="">UN PROJET ? ÉCRIVEZ-MOI</a>
+                    <div class="pub">
+                        <a class="cta" href="">UN PROJET ? ÉCRIVEZ-MOI</a>
+                    </div>
                 </div>
+                <div class="flex-container-right">
+                    <img src="./img/robbie-lens.png" alt="Photo Robbie Lens"/>
+                </div>
+
             </section>
-            <section>
-                <h2>Mon dernier projet</h2>
+            <section class="project">
+                <h2 class="h2Black center">Mon dernier projet</h2>
+                <p class="photo-container">
+                    <img class="photo-item" src="./img/photo/element-1.png">
+                    <img class="photo-item" src="./img/photo/element-2.png">
+                    <img class="photo-item" src="./img/photo/element-3.png">
+                    <img class="photo-item" src="./img/photo/element-4.png">
+                    <img class="photo-item" src="./img/photo/element-5.png">
+                    <img class="photo-item" src="./img/photo/element-6.png">
+                </p>
             </section>
         </main>
 

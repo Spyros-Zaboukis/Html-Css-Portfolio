@@ -41,6 +41,14 @@ p, li, h2{
 
 .h2Black{
     color: #1F2039;
+    font-family: Montserrat ;
+    font-size: 1.8em;
+}
+
+.center{
+    text-align: center;
+    margin-top : 2em;
+    margin-bottom: 1em;
 }
 
 header,
@@ -94,4 +102,43 @@ section{
 .servicesList{
     margin-top: 6px;
     margin-bottom: 6px;
+}
+
+
+
+.linkMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 6em;
+    margin-right: 10em;
+}
+
+.flex-container{
+    display: flex; 
+}
+
+.flex-container-left{
+    width: 30em;
+    margin-left: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.flex-container-right{
+    width : 30em;
+    margin-left: 7em;
+}
+
+
+.project{
+    background-color: white;
+}
+.photo-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
 }
