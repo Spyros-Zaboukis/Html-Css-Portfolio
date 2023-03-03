@@ -142,3 +142,34 @@ section{
     gap: 1em;
     justify-content: center;
 }
+
+
+.portfolio-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    grid-template-rows: 15em 15em 15em;
+}
+
+.paysage{
+    width: 28em;
+    height: 15em;
+}
+
+.portrait{
+    width: 28em;
+    height: 32em;
+}
+.portfolio-grid-container-portrait{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    grid-template-rows: 32em 32em;
+}
+
+.portfolioH2{
+    font-size: 2em;
+    text-transform:uppercase;
+    text-align: center;
+    margin: 2em;
+}
