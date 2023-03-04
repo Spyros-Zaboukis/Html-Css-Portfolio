@@ -66,16 +66,23 @@ body{
     background: linear-gradient(90deg, #8E86B5, #ACAEED);
     font-family: Montserrat;
     border-radius: 50px;
+    display: inline-block;
+    padding: 1em;
+    width: 14em;
+    text-align: center;
 }
 
 .bodyApropos{
     border-bottom: 1px solid #A5B4FC;
     border-right: 1px solid #A5B4FC;
     padding: 50px;
+    width: 50%;
+    margin-left: 25%;
 }
 
-a .cta{
+.cta{
     background-color: linear-gradient(90deg , #696484, #8788BA);
+
 }
 
 .icon:hover{
@@ -156,6 +163,7 @@ section{
     height: 15em;
 }
 
+
 .portrait{
     width: 28em;
     height: 32em;
@@ -172,4 +180,50 @@ section{
     text-transform:uppercase;
     text-align: center;
     margin: 2em;
+}
+
+.intro{
+    margin-left: 20%;
+}
+
+.galery1{
+    margin-left: 40%;
+    margin-top: 4em;
+}
+
+.ctaPortfolio1{
+    margin-left: 40%;
+    margin-top: 4em;
+}
+
+
+.textePhoto{
+    color: white;
+    background-color: black;
+    width: 28em;
+    position: relative;
+    text-align: center;
+    top: -15.4em;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    opacity: 0;
+}
+
+.textePhoto:hover{
+    opacity: 0.7;
+}
+
+.textePhotoPortrait{
+    color: white;
+    background-color: black;
+    width: 28em;
+    position: relative;
+    text-align: center;
+    top: -32.4em;
+    padding-top: 15.4em;
+    padding-bottom: 15.4em;
+    opacity: 0;
+}
+.textePhotoPortrait:hover{
+    opacity: 0.7;
 }
