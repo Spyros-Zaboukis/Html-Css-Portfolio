@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Accueil - Robbie Lens Photographie</title>
         <link href="./style.css" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,6 +64,29 @@
             </section>
             <section class="section-contact">
                 <h2 id="ancreContact">Parlons de votre projet</h2>
+                <form class="form" method="get" action="">
+                    <table>
+                        <tr>
+                            <td> <label for="nom">Votre Nom</label> </td>
+                            <td> <label for="email" name="email">Votre Email</label> </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" name="nom" id="nom" required> </td>
+                            <td> <input type="mail" id="mail" required> </td>
+                        </tr>
+                        <tr> 
+                        <td> <label for="texteClient">Message</label> </td> 
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <textarea name="texteClient" id="texteClient" required> </textarea> </td>
+                        </tr>
+                        </tr>
+                    </table>                    
+                    <br>
+
+                    <button type="submit">ENVOYER</button>
+
+                 </form>
             </section>
         </main>
 
