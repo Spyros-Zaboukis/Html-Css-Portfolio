@@ -1,0 +1,23 @@
+table{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+td, th{
+    border: 1px solid #A5B4FC;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 8em;
+}
+.trHeading{
+    height: 4em;
+}
+
+.h2Form{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
