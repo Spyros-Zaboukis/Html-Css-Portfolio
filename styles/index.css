@@ -12,6 +12,7 @@ button{
 .form{
     color: white;
     margin-left: 30%;
+    max-width: 1000px;
 }
 
 textarea{
@@ -35,4 +36,48 @@ label{
     font-size: 1.6em;
     text-transform: uppercase;
     margin-bottom: 2em;
+}
+
+
+/* MEDIA QUERIES POUR MOBILE */
+
+@media screen and ( max-width: 996px){
+    h1,h2{
+        font-size: 2em;
+    }
+
+    .linkMenu{
+       text-align: center;
+        display: block;
+    }
+
+    .flex-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .flex-container-left{
+        width: 100%;
+        padding: 0%;
+        margin-left: 3em
+    }
+    .flex-container-right{
+        width: 100%;
+        padding: 0%;
+        margin-left: 0%;
+    }
+    
+    .photoRobie{
+        margin-top: 5em;
+    }
+    .form{
+        margin-left: 10em;
+        text-align: center;
+    }
+    .pub{
+        margin-left: 35%    
+    }
+
+    .envoie{
+        margin-left : -5em;
+    }
 }
