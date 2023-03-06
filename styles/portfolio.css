@@ -1,0 +1,17 @@
+@media screen and (max-width : 996px) {
+    .portfolio-grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        text-align: center;
+        margin-right: -5em;
+        }
+    .portfolio-grid-container-portrait{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        text-align: center;
+        margin-right: -5em;
+    }
+    .portfolio-section-photos{
+        margin-left: -5em;
+    }
+}
